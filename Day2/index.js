@@ -65,3 +65,59 @@
 // )
 
 // ReactDOM.render(sample, document.getElementById("root"))
+
+// function MyName(){
+//     return(
+//         <h1>Vaibhav Tukaram Pawar</h1>
+//     )
+// }
+
+// ReactDOM.render(<MyName />, document.getElementById("root"))
+
+function Header() {
+    return (
+        <header>
+            <nav className ="nav">
+                <img src="/Day2/ReactLogo.png" alt="#" className="img-logo" ></img>
+                <ul className ="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+    )
+}
+
+function MainContent() {
+    return (
+        <div>
+            <h1>Reasons I'm Excited to learn React!!!</h1>
+            <ol>
+                <li>Because It's Popular</li>
+                <li>It Will Help me to earn</li>
+                <li>Its a JavaScript Library</li>
+                <li>It Seems easy</li>
+            </ol>
+        </div>
+    )
+}
+
+function Footer() {
+    return (
+        <footer className="footer">
+            <h5>@2022 Vaibhav Development. All Rights Reserved.</h5>
+        </footer>
+    )
+}
+
+function Challenge() {
+    return (
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
+    )
+}
+ReactDOM.render(<Challenge />, document.getElementById("root"))
