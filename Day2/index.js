@@ -74,42 +74,14 @@
 
 // ReactDOM.render(<MyName />, document.getElementById("root"))
 
-function Header() {
-    return (
-        <header>
-            <nav className ="nav">
-                <img src="/Day2/ReactLogo.png" alt="#" className="img-logo" ></img>
-                <ul className ="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
-    )
-}
 
-function MainContent() {
-    return (
-        <div>
-            <h1>Reasons I'm Excited to learn React!!!</h1>
-            <ol>
-                <li>Because It's Popular</li>
-                <li>It Will Help me to earn</li>
-                <li>Its a JavaScript Library</li>
-                <li>It Seems easy</li>
-            </ol>
-        </div>
-    )
-}
 
-function Footer() {
-    return (
-        <footer className="footer">
-            <h5>@2022 Vaibhav Development. All Rights Reserved.</h5>
-        </footer>
-    )
-}
+
+
+
+import Header from "./Header"
+import Footer from "./Footer"
+import MainContent from "./MainContent"
 
 function Challenge() {
     return (
